@@ -27,4 +27,4 @@ router.put('/category/:id', auth, adminCheck, update);
 router.delete('/category/:id', auth, adminCheck, remove);
 
 
-module.exports = router; 
+module.exports = router;  
